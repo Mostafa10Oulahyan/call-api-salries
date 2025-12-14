@@ -120,4 +120,4 @@ $users = [
 ];
 
 // رجوع JSON
-echo json_encode($users);
+echo json_encode($users, JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE);
